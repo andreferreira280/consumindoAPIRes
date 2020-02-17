@@ -17,10 +17,6 @@ public class HttpExemplo {
         HttpExemplo http = new HttpExemplo();
         Gson g = new Gson();
         User u = new User();
-        u.setUserName("sisint@yaman.com.br");
-        u.setSenha("sisint2001");
-//        u.setUserName("andre.silva@yaman.com.br");
-//        u.setSenha("thgr232527");
         Type userNameType = new TypeToken<User>() {
         }.getType();
         
